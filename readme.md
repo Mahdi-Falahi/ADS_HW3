@@ -5,6 +5,9 @@ This repository contains a comprehensive, experimental sandbox designed to syste
 The primary objective is to isolate and evaluate the empirical impacts of hyperparameter variations, regularization strategies, and topological modifications on model convergence and generalization capacity.
 
 ---
+### Important note:
+For the plots to be displayed properly you have to download HW3.ipynb and run it within vscode. You can't see the interactive plots online.
+---
 
 ## 1. Core Framework & Environment Selection
 
