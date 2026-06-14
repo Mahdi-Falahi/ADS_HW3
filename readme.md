@@ -110,7 +110,7 @@ The module utilizes the **Jena Climate Dataset** (14 meteorological features sam
 
 * **Subsampling:** The data is downsampled to 1-hour intervals to alleviate high-frequency noise and accelerate training velocity.
 * **Temporal Isolation:** Splitting is strictly chronological (70% Train, 15% Validation, 15% Test) to prevent future-lookahead data leakage. Feature scaling transforms are fit strictly on the training subset.
-* **Sliding Window Dimensions:** Input tensors $X$ are formatted to dimensions of $(\text{batch\_size}, \text{sequence\_length}, \text{num\_features})$, mapping to target tensors $y$ with dimensions of $(\text{batch\_size}, 1)$ to forecast the future temperature point.
+* **Sliding Window Dimensions:** Input tensors $X$ are formatted to dimensions to forecast the future temperature point.
 
 ### Architectural Paradigms Compared
 
